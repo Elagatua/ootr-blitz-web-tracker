@@ -222,6 +222,11 @@ function build_cycletoggle(itemid) {
     return `<div class="cycletoggle ${items[itemid]["size"]}" id="${itemid}">${cycleobj}${toggleobj}</div>`;
 }
 
+// Build the spacer
+function build_spacer(itemid) {
+    return `<div class="${items[itemid]["size"]}" id="${itemid}"></div>`;
+}
+
 function build_item(itemid) {
     if(items[itemid]["type"] === "cycle")
         return build_cycle(itemid, "");
@@ -235,6 +240,8 @@ function build_item(itemid) {
         return build_split(itemid);
     else if(items[itemid]["type"] === "cycletoggle")
         return build_cycletoggle(itemid);
+    else if(items[itemid]["type"] === "spacer")
+        return build_spacer(itemid);
     else
         console.log("Couldn't build itemid: ", itemid);
 }

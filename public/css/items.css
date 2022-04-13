@@ -85,6 +85,9 @@
 .zoratunic { background-image: url(/images/zora_tunic.png) }
 .tunics { background-image: url(/images/composite_tunics.png) }
 #triforce { background-image: url(/images/triforce.png) }
+#triforce_power { background-image: url(/images/triforce_pw.png) }
+#triforce_wisdom { background-image: url(/images/triforce_ws.png) }
+#triforce_courage { background-image: url(/images/triforce_cg.png) }
 .dekushieldbadge { background-image: url(/images/deku_shield_badge.png); }
 
 /* Song Tracking */

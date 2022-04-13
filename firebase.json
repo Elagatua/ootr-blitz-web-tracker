@@ -4,10 +4,17 @@
   },
   "hosting": {
     "public": "public",
+    "headers": [
+      { "source":"/service-worker.js", "headers": [{"key": "Cache-Control", "value": "no-cache"}] }
+    ],
     "rewrites": [
       {
         "source": "/horiz/**",
         "destination": "/horiz-ootrr-tracker.html"
+      },
+      {
+        "source": "/tfblitz/**",
+        "destination": "/triforce-blitz-tracker.html"
       },
       {
         "source": "/tsgmain/**",

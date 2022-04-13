@@ -1,48 +1,52 @@
 var dungeon_text = ["unknowntext", "dekutext", "dctext", "jabutext", "foresttext", "firetext", "watertext", "shadowtext", "spirittext", "freetext"];
 
 var items = {
+    "spacer": {
+        "type": "spacer",
+        "size": "spacer",
+    },
     "gomode": {
         "type": "toggle",
         "size": "majoritem",
     },
     "forest_med_text": {
         "type": "cycle",
-        "size": "med_rewardtext",
+        "size": "med_rewardtext_small",
         "opts": dungeon_text,
         "loop": true,
         "disable_zero": true,
     },
     "fire_med_text": {
         "type": "cycle",
-        "size": "med_rewardtext",
+        "size": "med_rewardtext_small",
         "opts": dungeon_text,
         "loop": true,
         "disable_zero": true,
     },
     "water_med_text": {
         "type": "cycle",
-        "size": "med_rewardtext",
+        "size": "med_rewardtext_small",
         "opts": dungeon_text,
         "loop": true,
         "disable_zero": true,
     },
     "shadow_med_text": {
         "type": "cycle",
-        "size": "med_rewardtext",
+        "size": "med_rewardtext_small",
         "opts": dungeon_text,
         "loop": true,
         "disable_zero": true,
     },
     "spirit_med_text": {
         "type": "cycle",
-        "size": "med_rewardtext",
+        "size": "med_rewardtext_small",
         "opts": dungeon_text,
         "loop": true,
         "disable_zero": true,
     },
     "light_med_text": {
         "type": "cycle",
-        "size": "med_rewardtext",
+        "size": "med_rewardtext_small",
         "opts": dungeon_text,
         "loop": true,
         "disable_zero": true,
@@ -91,7 +95,7 @@ var items = {
     },
     "forestmed": {
         "type": "toggle",
-        "size": "majoritem medallion",
+        "size": "medallion_small",
     },
     "forestmed_compact": {
         "type": "cycletoggle",
@@ -101,7 +105,7 @@ var items = {
     },
     "firemed": {
         "type": "toggle",
-        "size": "majoritem medallion",
+        "size": "medallion_small",
     },
     "firemed_compact": {
         "type": "cycletoggle",
@@ -111,7 +115,7 @@ var items = {
     },
     "watermed": {
         "type": "toggle",
-        "size": "majoritem medallion",
+        "size": "medallion_small",
     },
     "watermed_compact": {
         "type": "cycletoggle",
@@ -121,7 +125,7 @@ var items = {
     },
     "shadowmed": {
         "type": "toggle",
-        "size": "majoritem medallion",
+        "size": "medallion_small",
     },
     "shadowmed_compact": {
         "type": "cycletoggle",
@@ -131,7 +135,7 @@ var items = {
     },
     "spiritmed": {
         "type": "toggle",
-        "size": "majoritem medallion",
+        "size": "medallion_small",
     },
     "spiritmed_compact": {
         "type": "cycletoggle",
@@ -141,7 +145,7 @@ var items = {
     },
     "lightmed": {
         "type": "toggle",
-        "size": "majoritem medallion",
+        "size": "medallion_small",
     },
     "lightmed_compact": {
         "type": "cycletoggle",
@@ -338,6 +342,18 @@ var items = {
         "size": "majoritem",
         "minimum": 0,
         "maximum": 999,
+    },
+    "triforce_power": {
+        "type": "toggle",
+        "size": "majoritem",
+    },
+    "triforce_wisdom": {
+        "type": "toggle",
+        "size": "majoritem",
+    },
+    "triforce_courage": {
+        "type": "toggle",
+        "size": "majoritem",
     },
     "zlsong": {
         "type": "badge",

@@ -3,7 +3,7 @@
   color: rgba(255, 255, 255, 0.75);
 }
 
-.med_rewardtext, .stone_rewardtext {
+.med_rewardtext, .med_rewardtext_small, .stone_rewardtext {
   display: inline-block;
   background-size: contain;
   background-color: rgba(0, 0, 0, .6);
@@ -15,13 +15,13 @@
   margin: 3px;
 }
 
-.stone_rewardtext {
+.stone_rewardtext, .med_rewardtext_small {
   width: 33px;
   height: 12px;
   margin: 6px 1.5px 11.5px 1.5px;
 }
 
-.stones {
+.stones, .medallion_small {
   display: inline-block;
   position: relative;
   background-size: contain;
@@ -39,12 +39,21 @@
   margin: 3px;
 }
 
+.spacer {
+  display: inline-block;
+  width: 75px;
+  height: 50px;
+}
+
 .ct_cycle {
   top: 32px;
 }
 
-/* .medallion {
-} */
+.medallion_small {
+  width: 33px;
+  height: 33px;
+  margin: 11.5px 1.5px 11.5px 1.5px;
+}
 
 .simpletype {
   display: inline-block;
