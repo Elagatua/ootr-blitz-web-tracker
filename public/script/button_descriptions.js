@@ -355,6 +355,13 @@ var items = {
         "type": "toggle",
         "size": "majoritem",
     },
+    "tblitz_tiebreak": {
+        "type": "cycle",
+        "size": "majoritem",
+        "opts": ["stopwatch", "stopwatch_1st", "stopwatch_2nd", "stopwatch_3rd", "stopwatch_4th"],
+        "loop": true,
+        "disable_zero": true,
+    },
     "zlsong": {
         "type": "badge",
         "size": "majoritem",

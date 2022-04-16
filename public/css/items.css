@@ -88,6 +88,11 @@
 #triforce_power { background-image: url(/images/triforce_pw.png) }
 #triforce_wisdom { background-image: url(/images/triforce_ws.png) }
 #triforce_courage { background-image: url(/images/triforce_cg.png) }
+.stopwatch { background-image: url(/images/stopwatch.png) }
+.stopwatch_1st { background-image: url(/images/stopwatch_1st.png) }
+.stopwatch_2nd { background-image: url(/images/stopwatch_2nd.png) }
+.stopwatch_3rd { background-image: url(/images/stopwatch_3rd.png) }
+.stopwatch_4th { background-image: url(/images/stopwatch_4th.png) }
 .dekushieldbadge { background-image: url(/images/deku_shield_badge.png); }
 
 /* Song Tracking */
