@@ -11,6 +11,8 @@ var rootRef = {};
 var roomid = location.pathname.replace(/\/$/, "").split("/").pop().toLowerCase();
 var urlquery = location.search.replace(/\/$/, "").split("?").pop().toLowerCase().split("&");
 
+document.title = document.title + " - " + roomid;
+
 // Parse url controls
 for(let i=0; i<urlquery.length; i++) {
     if(urlquery[i].includes("password=")) {

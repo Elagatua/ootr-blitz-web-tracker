@@ -17,6 +17,10 @@
         "destination": "/triforce-blitz-tracker.html"
       },
       {
+        "source": "/tfblitzcompact/**",
+        "destination": "/triforce-blitz-compact.html"
+      },
+      {
         "source": "/tsgmain/**",
         "destination": "/tsg-vertical.html"
       },
