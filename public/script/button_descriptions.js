@@ -356,11 +356,36 @@ var items = {
         "size": "majoritem",
     },
     "tblitz_tiebreak": {
+        "type": "toggle",
+        "size": "majoritem",
+    },
+    "tblitz_tiebreak_4player": {
         "type": "cycle",
         "size": "majoritem",
         "opts": ["stopwatch", "stopwatch_1st", "stopwatch_2nd", "stopwatch_3rd", "stopwatch_4th"],
         "loop": true,
         "disable_zero": true,
+    },
+    "triforce_power_count": {
+        "type": "counter",
+        "size": "majoritem",
+        "minimum": 0,
+        "maximum": 40,
+        "enable_zero": true,
+    },
+    "triforce_wisdom_count": {
+        "type": "counter",
+        "size": "majoritem",
+        "minimum": 0,
+        "maximum": 40,
+        "enable_zero": true,
+    },
+    "triforce_courage_count": {
+        "type": "counter",
+        "size": "majoritem",
+        "minimum": 0,
+        "maximum": 40,
+        "enable_zero": true,
     },
     "zlsong": {
         "type": "badge",

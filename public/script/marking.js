@@ -156,7 +156,7 @@ function set_item_state(elementid, state) {
     }
     else if(element.classList.contains("counter")) {
         element.classList.remove("false");
-        if(state === 0) { 
+        if(state === 0 && !element.classList.contains("enable_zero")) { 
             element.innerHTML = "";
             if(!element.classList.contains("false"))
                 element.classList.add("false")
@@ -197,7 +197,8 @@ function build_toggle(itemid, advtoggle) {
 // Build the counter objects
 function build_counter(itemid) {
     let baseclass = items[itemid].hasOwnProperty('baseclass') ? items[itemid].baseclass : "";
-    var classes = `counter ${baseclass} ${items[itemid]["size"]} false`;
+    var enable_zero = items[itemid]["enable_zero"] ? " enable_zero" : ""
+    var classes = `counter ${baseclass} ${items[itemid]["size"]}${enable_zero} false`;
     return `<div class="${classes}" id="${itemid}"></div>`;
 }
 

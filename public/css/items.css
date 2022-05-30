@@ -88,6 +88,10 @@
 #triforce_power { background-image: url(/images/triforce_pw.png) }
 #triforce_wisdom { background-image: url(/images/triforce_ws.png) }
 #triforce_courage { background-image: url(/images/triforce_cg.png) }
+#triforce_power_count { background-image: url(/images/triforce_pw.png) }
+#triforce_wisdom_count { background-image: url(/images/triforce_ws.png) }
+#triforce_courage_count { background-image: url(/images/triforce_cg.png) }
+#tblitz_tiebreak { background-image: url(/images/stopwatch.png) }
 .stopwatch { background-image: url(/images/stopwatch.png) }
 .stopwatch_1st { background-image: url(/images/stopwatch_1st.png) }
 .stopwatch_2nd { background-image: url(/images/stopwatch_2nd.png) }

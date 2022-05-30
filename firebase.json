@@ -20,6 +20,10 @@
         "source": "/tfblitzcompact/**",
         "destination": "/triforce-blitz-compact.html"
       },
+            {
+        "source": "/tfblitzpath/**",
+        "destination": "/triforce-blitz-path-count.html"
+      },
       {
         "source": "/tsgmain/**",
         "destination": "/tsg-vertical.html"
